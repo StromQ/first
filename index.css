@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #bfa;
+}
+
+.w{
+    width: 30vw;
+    margin: 20px auto;
+}
+.clear::after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+ul{
+    overflow: hidden;
+    margin-left: 24px;
+}
+ul>li {
+    float: left;
+    height: 20px;
+    background-color: rgb(154, 207, 250);
+    line-height: 20px;
+    overflow: hidden;
+}
+
+ul>li>span  {
+    background-color:black;
+    display: block;
+    float: left;
+    width: 150px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+nav>div{
+    margin-left: 24px;
+}
+nav>div>p{
+    float: left;
+    color: rgb(154, 207, 250);
+
+}
+nav>div>p:nth-of-type(1){
+    margin-left: -20px;
+}
+
+nav>div>p:nth-of-type(2){
+    margin-left: 90px;
+}
+nav>div>p:nth-of-type(3){
+    margin-left: 90px;
+}
+
+
+main{
+    position: relative;
+}
+section{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    box-shadow: 10px 10px 1pc gray ;
+}
+section>h3{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+section>h5{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #fff;
+}
+form{
+    text-align: center;
+    background-color: #fff;
+}
+section>form>input{
+    background-color: #fff;
+    border-color: rgb(196, 195, 195);
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    text-indent: 1rem;
+    outline: none;
+}
+section>form>button{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    margin-top:20px;
+    margin-left: 20px;
+    background-color: salmon;
+    border: none;
+    color:#fff;
+    text-align: center;
+}
+
+.info,.social{
+    
+    display: none;
+}
+
+.bgcColor{
+    background-color: rgb(241, 123, 192) 
+}
+
+.color{
+    color:rgb(241, 123, 192);
+}
